@@ -3,7 +3,7 @@ require('dotenv').config(); // Memanggil file .env
 const express = require('express');
 const mongoose = require('mongoose');
 const { scrapeKompas } = require('./lib/scraper');
-
+const cors = require('cors');
 const app = express();
 // Gunakan PORT dari hosting nanti, atau 3000 untuk lokal
 const PORT = process.env.PORT || 3000;
@@ -102,3 +102,4 @@ app.listen(PORT, () => {
     console.log(`🚀 SERVER API BERJALAN DI PORT ${PORT}`);
     console.log(`========================================\n`);
 });
+app.use(cors());
