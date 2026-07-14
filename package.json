@@ -1,0 +1,31 @@
+{
+  "name": "scraping-berita",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "axios": "^1.18.1",
+    "cheerio": "^1.2.0",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "mongoose": "^9.7.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArsyadHobbyPR/Script-scraping-berita-kompasTv.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ArsyadHobbyPR/Script-scraping-berita-kompasTv/issues"
+  },
+  "homepage": "https://github.com/ArsyadHobbyPR/Script-scraping-berita-kompasTv#readme"
+}
