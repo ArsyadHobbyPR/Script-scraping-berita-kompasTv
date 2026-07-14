@@ -6,6 +6,9 @@ const { scrapeKompas } = require('./lib/scraper');
 const cors = require('cors');
 const app = express();
 // Gunakan PORT dari hosting nanti, atau 3000 untuk lokal
+
+app.use(cors());
+
 const PORT = process.env.PORT || 3000;
 const MONGO_URI = process.env.MONGO_URI;
 
@@ -102,4 +105,3 @@ app.listen(PORT, () => {
     console.log(`🚀 SERVER API BERJALAN DI PORT ${PORT}`);
     console.log(`========================================\n`);
 });
-app.use(cors());
