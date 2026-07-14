@@ -8,7 +8,7 @@ Dibuat dan dikembangkan oleh: **Arsyad** 🚀
 
 ## 🌐 Base URL
 URL utama dari API ini di server *production*:
-```https://api-berita-kompas.onrender.com/
+```https://api-berita-kompas.onrender.com/```
 
 🚀 Panduan Endpoint API
 ​1. Cek Status Server
